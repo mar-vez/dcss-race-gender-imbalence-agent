@@ -15,7 +15,7 @@ const exec = util.promisify(require('child_process').exec);
 
 async function isSatire(input) {
 
-  const { stdout, stderr } = await exec(`python3 ./satire.py '"${escapeStringRegexp(input)}"'`);
+  const { stdout, stderr } = await exec(`py -3 ./satire.py '"${escapeStringRegexp(input)}"'`);
   if (stderr) {
     return stderr;
   }
