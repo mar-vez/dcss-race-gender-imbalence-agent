@@ -1,4 +1,4 @@
-# DCSS Satire Analysis
+# DCSS Race and Gender Imbalence for RJ Analysis
 
 This repository contains an example websocket service that implements the interactions described in [DCSS Remote AI Service Integration ](https://github.com/mit-teaching-systems-lab/dcss-remote-ai-integration). This demonstration also illustrates the use of a child process.
 
